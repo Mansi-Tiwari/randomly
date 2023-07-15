@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    background-color: #222324;
+    padding: 30px;
+  }
+  button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #6413fc;
+    color: #151d2f;
+    border-radius: 0.5em;
+    font-weight: 500;
+  }
+  .search-container {
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1em;
+    width: 100%;
+    max-width: 50em;
+    margin: 1em auto;
+    padding: 0.5em;
+  }
+  .search-container input {
+    padding: 1em;
+    border-radius: 0.5em;
+    font-weight: 400;
+    font-size: medium;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .container {
+    background-color: #4b4a4ea9;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1.5em;
+    border-radius: 0.5em;
+  }
+  .container img {
+    width: 50%;
+  }
+  .container button {
+    margin-top: 1em;
+    padding: 1em 0;
+    width: 100%;
+    color: rgb(206, 201, 201);
+    font-weight: 600;
+    font-size: medium;
+  }
+  .loader {
+    display: none;
+    height: 5em;
+    width: 5em;
+    border: 1em solid #ededf0;
+    border-radius: 50%;
+    border-top-color: #8b13fc;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    animation: spin 3s infinite;
+  }
+  @keyframes spin {
+    100% {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }
+  @media screen and (max-width: 1968px) {
+    .wrapper {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .container {
+      margin: 0.7em;
+    }
+  }
+  @media screen and (max-width: 968px) {
+    .wrapper {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .container {
+      margin: 0.7em;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .wrapper {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .container {
+      margin: 0.7em;
+    }
+  }
+  @media screen and (max-width: 576px) {
+    .wrapper {
+      grid-template-columns: 1fr;
+    }
+  }
