@@ -4,12 +4,10 @@ Search gif
 
 Randomly GIF is a responsive web application that allows you to search for GIFs and copy their links. It utilizes the GIPHY API to fetch GIFs based on user queries.
 
-![image](https://github.com/Mansi-Tiwari/randomly/assets/78271543/8ed49c34-769d-4a4c-a261-306051eed21e)
+![image](https://github.com/Mansi-Tiwari/randomly/assets/78271543/5f178630-e0b1-4ed2-ad7b-4edd7a76a6bc)
 
 
 ## Demo
-
-![Demo](https://randomly-gif.netlify.app/)
 
 You can check out the live demo of the app [here](https://randomly-gif.netlify.app/).
 
